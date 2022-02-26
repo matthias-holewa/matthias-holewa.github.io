@@ -3620,7 +3620,7 @@ input, select, textarea {
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
 		overflow: hidden;
-		padding: 0 2rem 0 0;
+		padding: 0 0 0 0;
 		position: relative;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
@@ -3953,7 +3953,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #f5f5f5;
+		background-color: #ffffff;
 		color: #909498;
 		cursor: default;
 		position: relative;
