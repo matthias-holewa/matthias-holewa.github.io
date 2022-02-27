@@ -2592,6 +2592,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		box-shadow: 0 0.5rem 2rem 0 rgba(0,0,0,0.2), 0 1rem 1rem 0 rgba(0,0,0,0.19);
 	}
 
 		.image img {
@@ -3766,7 +3767,7 @@ input, select, textarea {
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #eeeeee;
+			border-top: solid 2px #ffffff;
 			margin: 0;
 		}
 
@@ -3862,7 +3863,7 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
-				border-color: #eeeeee;
+				border-color: #ffffff;
 				border-left-width: 2px;
 				border-style: solid;
 				border-top-width: 2px;
