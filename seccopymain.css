@@ -3517,7 +3517,7 @@ input, select, textarea {
 		-ms-user-select: none;
 		user-select: none;
 		height: 20rem;
-		padding-bottom: 4rem;
+		padding-bottom: 8rem;
 		position: relative;
 		text-align: center;
 		z-index: 2;
@@ -3564,8 +3564,8 @@ input, select, textarea {
 			-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
 			transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
 			pointer-events: auto;
-			border-style: transparent;
-			border-color: rgba(0, 0, 0, 0);
+			border-style: solid;
+			border-color: #ffffff;
 			border-width: 5px !important;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 2.25rem;
@@ -3578,7 +3578,7 @@ input, select, textarea {
 		}
 
 			#header .logo:hover {
-				border-color: rgba(0, 0, 0, 0) !important;
+				border-color: #18bfef !important;
 				color: #18bfef !important;
 			}
 
@@ -3616,7 +3616,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.1);
+		background: rgba(255, 255, 255, 0.175);
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -3652,7 +3652,7 @@ input, select, textarea {
 
 		#nav a {
 			color: #bbbbbb;
-			border-bottom-color: rgba(255, 255, 255, 0.1);
+			border-bottom-color: rgba(255, 255, 255, 0.175);
 		}
 
 			#nav a:hover {
@@ -3673,7 +3673,7 @@ input, select, textarea {
 		}
 
 		#nav code {
-			background: rgba(255, 255, 255, 0.1);
+			background: rgba(255, 255, 255, 0.175);
 			border-color: #ffffff;
 		}
 
@@ -3719,6 +3719,15 @@ input, select, textarea {
 					padding: 0 2rem;
 				}
 
+					#nav ul.links li a:hover {
+						color: inherit !important;
+						background-color: rgba(255, 255, 255, 0.175);
+					}
+
+				#nav ul.links li.active {
+					background-color: rgba(255, 255, 255, 0.175);
+				}
+
 					#nav ul.links li.active a {
 						color: #ffffff;
 					}
@@ -3750,7 +3759,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: rgba(255, 255, 255, 0.1);
+		background-color: rgba(255, 255, 255, 0.175);
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
