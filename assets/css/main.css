@@ -2056,7 +2056,7 @@ input, select, textarea {
 		}
 
 	.box {
-		border-color: #eeeeee;
+		border-color: #d30303;
 	}
 
 /* Button */
@@ -2549,43 +2549,6 @@ input, select, textarea {
 		color: #909498 !important;
 	}
 
-/* Icon */
-
-	.icon {
-		text-decoration: none;
-		border-bottom: none;
-		position: relative;
-	}
-
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			display: inline-block;
-			font-style: normal;
-			font-variant: normal;
-			text-rendering: auto;
-			line-height: 1;
-			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
-		}
-
-		.icon > .label {
-			display: none;
-		}
-
-		.icon:before {
-			line-height: inherit;
-		}
-
-		.icon.solid:before {
-			font-weight: 900;
-		}
-
-		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
-		}
-
 /* Image */
 
 	.image {
@@ -2620,7 +2583,7 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			display: block;
+			display: inline;
 			margin: 2.5rem 0;
 			width: 100%;
 		}
@@ -2634,7 +2597,7 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
+			display: inline;
 			margin: 4rem 0;
 			width: 100%;
 		}
@@ -2677,6 +2640,12 @@ input, select, textarea {
 			transform: scale(1.05);
 		}
 
+/* Pic */
+
+	.pic {
+		display: flex;
+
+	}
 /* Actions */
 
 	ul.actions {
@@ -2798,43 +2767,6 @@ input, select, textarea {
 						}
 
 		}
-
-/* Icons */
-
-	ul.icons {
-		cursor: default;
-		list-style: none;
-		padding-left: 0;
-	}
-
-		ul.icons li {
-			display: inline-block;
-			padding: 0 0.5rem 0 0;
-			vertical-align: middle;
-		}
-
-			ul.icons li:last-child {
-				padding-right: 0;
-			}
-
-			ul.icons li .icon:before {
-				width: 2.25rem;
-				height: 2.25rem;
-				line-height: 2.25rem;
-				display: inline-block;
-				text-align: center;
-				border-radius: 100%;
-				font-size: 1.25rem;
-			}
-
-		ul.icons.alt li .icon:before {
-			-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-			-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-			-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-			transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-			font-size: 1rem;
-		}
-
 /* List */
 
 	ol {
@@ -3756,7 +3688,9 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
-		color:rgb(255, 255, 255)
+		color:rgb(255, 255, 255);
+		-webkit-border-bottom-left-radius: 0.8rem;
+		-webkit-border-bottom-right-radius: 0.8rem;
 	}
 
 		#main > * {
@@ -4557,7 +4491,7 @@ input, select, textarea {
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		display: none;
 		-webkit-overflow-scrolling: touch;
-		background: #ffffff;
+		background-color:  rgba(255, 255, 255, 0.6);
 		box-shadow: none;
 		color: #212931;
 		height: 100%;
@@ -4578,7 +4512,7 @@ input, select, textarea {
 		}
 
 			#navPanel .links li {
-				border-top: solid 2px #eeeeee;
+				border-top: solid 2px  rgba(255, 255, 255, 0);
 			}
 
 				#navPanel .links li a {
@@ -4605,7 +4539,7 @@ input, select, textarea {
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 			border: 0;
-			color: #909498;
+			color: #ffffff;
 			cursor: pointer;
 			display: block;
 			height: 3.25rem;
@@ -4638,7 +4572,7 @@ input, select, textarea {
 			}
 
 			#navPanel .close:hover {
-				color: #212931;
+				color: #15528f;
 			}
 
 			@media screen and (max-width: 736px) {
