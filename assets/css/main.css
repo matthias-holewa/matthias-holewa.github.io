@@ -2639,6 +2639,29 @@ input, select, textarea {
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
 		}
+/* Flexbox Container */
+
+	.flexbox-container-0 {
+		display:flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.flexbox-container-1 {
+		display:flex;
+		justify-content: flex-start;
+		align-items: stretch;
+		flex-direction: row ;
+	}
+
+	.flexbox-item {
+		width: 20%;
+		object-fit: contain;
+		padding: 1rem;
+		
+	}
+
 
 /* Pic */
 
@@ -3708,7 +3731,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 1rem 4rem 6rem 4rem ;
+			padding: 1rem 4rem 6rem 4rem;
 		}
 
 			#main > .post header.major > .date {
@@ -3728,7 +3751,7 @@ input, select, textarea {
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
-					padding: 6rem 4rem 4rem 4rem ;
+					padding: 1rem 4rem 6rem 4rem;
 				}
 
 			}
@@ -3736,7 +3759,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				#main > .post {
-					padding: 4rem 2rem 2rem 2rem ;
+					padding: 4rem 4rem 6rem 4rem;
 				}
 
 					#main > .post header.major > .date {
