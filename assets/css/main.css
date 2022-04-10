@@ -2641,21 +2641,21 @@ input, select, textarea {
 		}
 /* Flexbox Container */
 
-	.flexbox-container-0 {
+	.flexbox-container-art-0 {
 		display:flex;
 		justify-content: flex-start;
 		align-items: flex-start;
 		flex-direction: column;
 	}
 
-	.flexbox-container-1 {
+	.flexbox-container-art-1 {
 		display:flex;
 		justify-content: flex-start;
 		align-items: stretch;
 		flex-direction: row ;
 	}
 
-	.flexbox-item {
+	.flexbox-item-art {
 		width: 20%;
 		object-fit: contain;
 		padding: 1rem;
