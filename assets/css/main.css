@@ -2583,7 +2583,7 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			display: inline;
+			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
 		}
@@ -2641,27 +2641,71 @@ input, select, textarea {
 		}
 /* Flexbox Container */
 
-	.flexbox-container-art-0 {
-		display:flex;
-		justify-content: flex-start;
-		align-items: flex-start;
-		flex-direction: column;
-	}
+		/* Art */
 
-	.flexbox-container-art-1 {
-		display:flex;
-		justify-content: flex-start;
-		align-items: stretch;
-		flex-direction: row ;
-	}
+			.flexbox-container-art-0 {
+				display:flex;
+				justify-content: flex-start;
+				align-items: flex-start;
+				flex-direction: column;
+			}
 
-	.flexbox-item-art {
-		width: 20%;
-		object-fit: contain;
-		padding: 1rem;
-		
-	}
+			.flexbox-container-art-1 {
+				display:flex;
+				justify-content: flex-start;
+				align-items: stretch;
+				flex-direction: row ;
+			}
 
+			.flexbox-item-art {
+				width: 20%;
+				object-fit: contain;
+				padding: 1rem;
+			}
+
+		/* Skills - Studies - ArchViz - GameDev - Engagement*/
+
+			.flexbox-container-0 {
+				display:flex;
+				justify-content: flex-start;
+				align-items: flex-start;
+				flex-direction: column;
+			}
+
+			.flexbox-container-1 {
+				display:flex;
+				justify-content: flex-start;
+				align-items: stretch;
+				flex-direction: row ;
+			}
+
+			.flexbox-item {
+				width: 10%;
+				object-fit: contain;
+				padding: 1rem;
+			}
+
+		/* Resumee */
+
+		.flexbox-container-resumee-0 {
+			display:flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-resumee-1 {
+			display:flex;
+			justify-content: flex-start;
+			align-items: stretch;
+			flex-direction: row ;
+		}
+
+		.flexbox-item-resumee {
+			width: 20%;
+			object-fit: contain;
+			padding: 1rem;
+		}
 
 /* Pic */
 
