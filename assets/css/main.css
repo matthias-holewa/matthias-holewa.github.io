@@ -963,44 +963,29 @@ input, select, textarea {
 			flex-direction: column ;
 			padding-bottom: 1rem;
 			padding-top: 1rem;
+			padding-left: 5%;
+			padding-right: 5%;
 		}
 
 		.flexbox-item-viz-0 {
 			width: 100%;
-			object-fit: contain;
-			height: 1rem;
-
+			justify-content: flex-start;
+			flex-direction: column ;
 		}
 
 		.flexbox-item-viz-1 {
+			display:block;
+			
 			width: 100%;
-			object-fit: contain;
+		
 		}
 
 		.flexbox-item-viz-2 {
-			width: 50%;
+			width: 100%;
 			object-fit: contain;
 			
 		}
 
-		/* Video: Wrap */
-		.video-wrap {
-			position: relative;
-			width: 100%;
-			height: 0;
-		}
-		
-		/* Video: Player */
-		.video-wrap > iframe {
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			display: block;
-			width: 100%;
-			height: 100%;
-		}
 
 		/* Resumee */
 
