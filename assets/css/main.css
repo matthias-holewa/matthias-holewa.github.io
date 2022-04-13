@@ -961,12 +961,24 @@ input, select, textarea {
 		}
 
 		.flexbox-container-title {
-			diplay: flex;
+			display: flex;
 			justify-content: center;
 			align-items: center;
 		}
 
 		.flexbox-item-title {
+			width: 50%;
+			object-fit: contain;
+			padding: 1rem;
+		}
+
+		.flexbox-container-nav {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.flexbox-item-nav {
 			width: 50%;
 			object-fit: contain;
 			padding: 1rem;
