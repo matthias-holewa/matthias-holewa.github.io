@@ -1248,8 +1248,6 @@ input, select, textarea {
 
 /* Intro */
 
-	
-
 /* Header */
 
 	#header {
@@ -1389,26 +1387,6 @@ input, select, textarea {
 		-webkit-border-top-left-radius: 0.8rem;
 	}
 
-		#nav ul.divided li {
-			border-top-color: #ffffff;
-		}
-
-		#nav ul.icons li a.icon:hover:before {
-			color: #18bfef;
-		}
-
-		#nav ul.icons.alt li .icon:before {
-			box-shadow: inset 0 0 0 2px #ffffff;
-		}
-
-		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
-		}
-
-		#nav input, #nav select, #nav textarea {
-			color: #ffffff;
-		}
-
 		#nav a {
 			color: #bbbbbb;
 			border-bottom-color: rgba(255, 255, 255, 0.1);
@@ -1418,27 +1396,6 @@ input, select, textarea {
 				border-bottom-color: transparent;
 				color: #ffffff !important;
 			}
-
-		#nav strong, #nav b {
-			color: #ffffff;
-		}
-
-		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
-			color: #ffffff;
-		}
-
-		#nav blockquote {
-			border-left-color: #ffffff;
-		}
-
-		#nav code {
-			background: rgba(255, 255, 255, 0.1);
-			border-color: #ffffff;
-		}
-
-		#nav hr {
-			border-bottom-color: #ffffff;
-		}
 
 		#nav ul.links {
 			display: -moz-flex;
@@ -1485,18 +1442,6 @@ input, select, textarea {
 						#nav ul.links li.active a:hover {
 							color: #ffffff !important;
 						}
-
-		#nav ul.icons {
-			-moz-flex-grow: 0;
-			-webkit-flex-grow: 0;
-			-ms-flex-grow: 0;
-			flex-grow: 0;
-			-moz-flex-shrink: 0;
-			-webkit-flex-shrink: 0;
-			-ms-flex-shrink: 0;
-			flex-shrink: 0;
-			margin-bottom: 0;
-		}
 
 		@media screen and (max-width: 980px) {
 
@@ -1870,22 +1815,6 @@ input, select, textarea {
 			color: #b3b7bb !important;
 		}
 
-		#footer ul.divided li {
-			border-top-color: #e2e2e2;
-		}
-
-		#footer ul.icons li a.icon:hover:before {
-			color: #18bfef;
-		}
-
-		#footer ul.icons.alt li .icon:before {
-			box-shadow: inset 0 0 0 2px #e2e2e2;
-		}
-
-		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
-		}
-
 		#footer header.major .date:before, #footer header.major .date:after {
 			border-top-color: #e2e2e2;
 		}
@@ -2163,32 +2092,6 @@ input, select, textarea {
 		#copyright a {
 			color: #ffffff;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
-		}
-
-			#copyright a:hover {
-				border-bottom-color: transparent;
-				color: #18bfef !important;
-			}
-
-		#copyright strong, #copyright b {
-			color: #ffffff;
-		}
-
-		#copyright h1, #copyright h2, #copyright h3, #copyright h4, #copyright h5, #copyright h6 {
-			color: #ffffff;
-		}
-
-		#copyright blockquote {
-			border-left-color: #ffffff;
-		}
-
-		#copyright code {
-			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
-		}
-
-		#copyright hr {
-			border-bottom-color: #ffffff;
 		}
 
 		#copyright a {
