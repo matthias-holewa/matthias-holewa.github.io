@@ -135,10 +135,58 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width: 1130px) {
 
 			html {
 				font-size: 10pt;
+			}
+
+		}
+
+		@media screen and (max-width: 1030px) {
+
+			html {
+				font-size: 9pt;
+			}
+
+		}
+
+		@media screen and (max-width: 930px) {
+
+			html {
+				font-size: 8pt;
+			}
+
+		}
+
+		@media screen and (max-width: 830px) {
+
+			html {
+				font-size: 7pt;
+			}
+
+		}
+
+		@media screen and (max-width: 737px) {
+
+			html {
+				font-size: 6pt;
+			}
+
+		}
+
+		@media screen and (max-width: 630px) {
+
+			html {
+				font-size: 5pt;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			html {
+				font-size: 9pt;
 			}
 
 		}
