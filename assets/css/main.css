@@ -949,6 +949,13 @@ input, select, textarea {
 
 		/* visualization */
 
+		.rounded {
+			border-radius: 0.4rem; 
+			overflow: hidden;
+			-webkit-transform: translateZ(0);
+			box-shadow: 1rem 1rem 1rem 1rem rgba(0,0,0,0.16), 0 1rem 19px 0 rgba(0,0,0,0.07);
+		}
+
 		.flexbox-container-viz-0 {
 			display:flex;
 			justify-content: flex-start;
@@ -961,29 +968,73 @@ input, select, textarea {
 			width: 100%;
 			justify-content: flex-start;
 			flex-direction: column ;
-			padding-top: 1rem;
-			padding-left: 5%;
-			padding-right: 5%;
+			padding-bottom: 2rem;
+		}
+
+		.flexbox-container-viz-2 {
+			display:flex;
+			width: 100%;
+			justify-content: flex-start;
+			flex-direction: row ;
+		}
+
+		.flexbox-container-viz-3 {
+			display:flex;
+			width: 18.1%;
+			justify-content: flex-start;
+			flex-direction: column;
 		}
 
 		.flexbox-item-viz-0 {
-			width: 100%;
+			display: block;
+			object-fit:contain;
+			width: 50%;
+			color: rgb(255, 255, 255);
+			font-size: 0.8rem;
 			justify-content: flex-start;
-			flex-direction: column ;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 900;
+			letter-spacing: 0.075em;
+			text-transform: uppercase;
+			padding-bottom: 1rem;
+			
 		}
 
 		.flexbox-item-viz-1 {
 			display:block;
 			width: 100%;
+			height: 100%;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-transform: uppercase;
 		}
 
 		.flexbox-item-viz-2 {
 			display:block;
-			width: 100%;
-			object-fit: contain;
+			width: 5%;
 		}
 
 		.flexbox-item-viz-3 {
+			display:block;
+			width: 59.3%;
+		}
+
+		.flexbox-item-viz-4 {
+			display:block;
+			width: 100%;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-transform: uppercase;
+			padding-bottom: 1rem;
+		}
+
+		.flexbox-item-viz-5 {
 			display:block;
 			width: 100%;
 			padding-top: 3rem;
@@ -1013,6 +1064,8 @@ input, select, textarea {
 			object-fit: contain;
 			padding: 1rem;
 		}
+
+		/* Title */
 
 		.flexbox-container-title {
 			display: flex;
@@ -1541,9 +1594,9 @@ input, select, textarea {
 
 	#main {
 		background-color: rgba(255, 255, 255, 0.1);
-		background-image: url("/images/bg_line_trans.png");
+		/*background-image: url("/images/bg_line_trans.png");
 		background-size: contain;
-		background-repeat: no-repeat;
+		background-repeat: no-repeat;*/
 		position: relative;
 		margin-left: 5rem;
 		margin-right: 5rem;
