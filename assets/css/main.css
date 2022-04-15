@@ -917,35 +917,49 @@ input, select, textarea {
 				padding: 1rem;
 			}
 
-		/* Skills */
-
-			.flexbox-container-skill-0 {
-				display:flex;
-				justify-content: flex-start;
-				align-items: flex-start;
-				flex-direction: column;
-			}
-
-			.flexbox-container-skill-1 {
-				display:flex;
-				width: 100%;
-				justify-content: flex-start;
-				flex-direction: row ;
-				padding: 1rem;
-			}
-
-			.flexbox-item-skill-1 {
-				width: 30%;
-				object-fit: contain;
-			}
-
-			.flexbox-item-skill-2 {
-				width: 70%;
-				object-fit: contain;
-				
-			}
 
 		/* production */
+
+		.flexbox-container-production-0 {
+			display:flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-production-1 {
+			display:flex;
+			width: 100%;
+			justify-content: flex-start;
+			flex-direction: row ;
+		}
+
+		.flexbox-container-production-2 {
+			display:flex;
+			width: 5%;
+			justify-content: flex-start;
+			flex-direction: row ;
+			padding-bottom: 1rem;
+		}
+
+		.flexbox-container-production-3 {
+			display:flex;
+			width: 47.5%;
+			justify-content: flex-start;
+			flex-direction: row ;
+			padding-bottom: 1rem;
+		}
+
+		.flexbox-item-production-1 {
+			width: 30%;
+			object-fit: contain;
+		}
+
+		.flexbox-item-production-2 {
+			width: 70%;
+			object-fit: contain;
+			
+		}
 
 		/* visualization */
 
@@ -953,7 +967,7 @@ input, select, textarea {
 			border-radius: 0.4rem; 
 			overflow: hidden;
 			-webkit-transform: translateZ(0);
-			box-shadow: 1rem 1rem 1rem 1rem rgba(0,0,0,0.16), 0 1rem 19px 0 rgba(0,0,0,0.07);
+			box-shadow: -10rem 0rem 10rem 0rem rgba(0, 0, 0, 0.3), 10rem 0rem 10rem 0rem rgba(0, 0, 0, 0.3);
 		}
 
 		.flexbox-container-viz-0 {
@@ -961,7 +975,7 @@ input, select, textarea {
 			justify-content: flex-start;
 			align-items: flex-start;
 			flex-direction: column;
-			padding-top: 1rem;
+			padding-bottom: 2rem;
 		}
 
 		.flexbox-container-viz-1 {
@@ -969,6 +983,8 @@ input, select, textarea {
 			width: 100%;
 			justify-content: flex-start;
 			flex-direction: column ;
+			padding-top: 2rem;
+			padding-bottom: 2rem;
 		}
 
 		.flexbox-container-viz-2 {
@@ -1015,7 +1031,7 @@ input, select, textarea {
 		}
 
 		.flexbox-item-viz-3 {
-			display:block;
+			display:flex;
 			width: 5%;
 		}
 
