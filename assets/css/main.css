@@ -962,9 +962,8 @@ input, select, textarea {
 			width: 65%;
 			justify-content: flex-start;
 			flex-direction: column;
-			padding-top: 1rem;
-			padding-bottom:1rem;
-			padding-right:1rem;
+			
+			
 		}
 
 		.flexbox-container-production-5 {
@@ -1017,7 +1016,7 @@ input, select, textarea {
 			display:block;
 			width: 100%;
 			height: 100%;
-			box-shadow: -0rem 0rem 2rem 1rem rgba(0, 0, 0, 0.2), 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.2);
+			/*box-shadow: -0rem 0rem 2rem 1rem rgba(0, 0, 0, 0.2), 0rem 0rem 0rem 0rem rgba(0, 0, 0, 0.2);*/
 		}
 
 		.flexbox-item-production-2 {
