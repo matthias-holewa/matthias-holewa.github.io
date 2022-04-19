@@ -1078,14 +1078,15 @@ input, select, textarea {
 
 		.flexbox-container-viz-3 {
 			display:flex;
-			width: 20.1%;
-			justify-content: flex-start;
+			width: 48.5%;
+			justify-content: center;
 			flex-direction: column;
+			background-color: #909498;
 		}
 
 		.flexbox-container-viz-4 {
 			display:flex;
-			width: 47%;
+			width: 48.5%;
 			justify-content: flex-start;
 			flex-direction: column;
 			
@@ -1130,7 +1131,9 @@ input, select, textarea {
 
 		.flexbox-item-viz-4 {
 			display:block;
-			width: 50%;
+			object-fit: contain;
+			width: 98.7%;
+			margin: 0.2rem;
 			/*width: 59.3%;*/
 			/*border-color: white;
 			border: 0.5rem solid white;*/
