@@ -933,39 +933,44 @@ input, select, textarea {
 			justify-content: flex-start;
 			flex-direction: row;
 			border-color: white;
-			
-		
 			/*box-shadow: -0.5rem 0rem 1rem 0.5rem rgba(0, 0, 0, 0.2), 1rem 0rem 4rem 0.5rem rgba(0, 0, 0, 0.2);*/
 		}
 
 		.flexbox-container-production-2 {
 			display:flex;
-			width: 40%;
+			width: 35%;
 			justify-content: flex-start;
 			flex-direction: column;
-			/*background-image: url("/images/sideline.png");*/
+			/*background-image: url("/images/sideline.png");
 			background-repeat: no-repeat;
 			background-size: 5%;
-			background-position: center;
+			background-position: center;*/
 			
+		}
+
+		.flexbox-container-production-2b {
+			display:flex;
+			height: 31,6%;
+			justify-content: flex-start;
+			flex-direction: row;
+			padding-top: 3%;
 		}
 
 		.flexbox-container-production-3 {
 			display:flex;
-			width: 5%;
+			width: 3%;
 			justify-content: flex-start;
 			flex-direction: column;
-			padding-top: 1rem;
-			padding-bottom:1rem;
+			padding-top: 1%;
+			padding-bottom:1%;
 		}
 
 		.flexbox-container-production-4 {
 			display:flex;
-			width: 65%;
+			width: 62%;
+			height: 100%;
 			justify-content: flex-start;
 			flex-direction: column;
-			
-			
 		}
 
 		.flexbox-container-production-5 {
@@ -975,16 +980,11 @@ input, select, textarea {
 			flex-direction: column;
 		}
 
-		.flexbox-container-production-6 {
-			display:flex;
-			height: 7.5%;
-			justify-content: flex-start;
-			flex-direction: column;
-		}
+		
 
 		.flexbox-container-production-7 {
 			display:flex;
-			height: 50.9%;
+			height: 50%;
 			justify-content: flex-end;
 			flex-direction: column;
 			color: rgba(255, 255, 255, 1);
@@ -997,7 +997,7 @@ input, select, textarea {
 
 		.flexbox-container-production-8 {
 			display:flex;
-			height: 10%;
+			height: 6,6%;
 			justify-content: flex-end;
 			flex-direction: column;
 			color: rgba(255, 255, 255, 0.5);
@@ -1014,10 +1014,27 @@ input, select, textarea {
 			justify-content: center;
 		}
 
-		.flexbox-item-production-1 {
+		.flexbox-item-production-00 {
+			display:block;
+			width: 2.5%;
+			height: 100%;
+		}
+
+		.flexbox-item-production-000 {
 			display:block;
 			width: 100%;
-			height: 100%;
+			height: 2.5%;
+		}
+
+		.flexbox-item-production-0000 {
+			display:block;
+			height: 2.5%;
+		}
+
+		.flexbox-item-production-1 {
+			display:block;
+			width: 48.75%;
+			
 			/*border-color: white;
 			border: 0.3rem solid white;*/
 		}
@@ -1029,15 +1046,17 @@ input, select, textarea {
 			flex-direction: column;
 		}
 
+		
+
 		.flexbox-item-production-3 {
 			display:block;
 			width: 100%;
-			height: 33%;
+			height: 33.3%;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
 			letter-spacing: 0.075em;
+			font-weight: 10;
 		}
 
 		/* visualization */
@@ -1089,7 +1108,6 @@ input, select, textarea {
 			width: 48.5%;
 			justify-content: flex-start;
 			flex-direction: column;
-			
 		}
 
 		.flexbox-container-viz-6 {
@@ -1098,7 +1116,7 @@ input, select, textarea {
 			justify-content: flex-start;
 			flex-direction: column;
 		}
-
+		
 		.flexbox-item-viz-1 {
 			display:block;
 			width: 100%;
