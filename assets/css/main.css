@@ -895,7 +895,118 @@ input, select, textarea {
 
 /* Flexbox Container */
 
-		/* Resumee */
+		/* About */
+
+		.flexbox-container-a-0 {
+			display:flex;
+			width: 100%;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-a-1 {
+			display:flex;
+			width: 100%;
+			justify-content: flex-start;
+			flex-direction: row;
+		}
+
+		.flexbox-container-a-2 {
+			display:flex;
+			width: 20%;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		.flexbox-container-a-3 {
+			display:flex;
+			height: 31,6%;
+			justify-content: flex-start;
+			flex-direction: row;
+			padding-top: 3%;
+		}
+
+		.flexbox-container-a-4 {
+			display:flex;
+			width: 3%;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-a-5 {
+			display:flex;
+			width: 62%;
+			height: 100%;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-a-6 {
+			display:flex;
+			height: 30%;
+			justify-content: flex-start;
+			flex-direction: column;
+			padding-top: 2rem;
+		}
+
+		.flexbox-container-a-7 {
+			display:flex;
+			height: 50%;
+			justify-content: flex-end;
+			flex-direction: column;
+			color: rgba(255, 255, 255, 1);
+			font-size: 0.8rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: start;
+			padding-top:4%;
+		}
+
+		.flexbox-container-a-8 {
+			display:flex;
+			height: 20%;
+			justify-content: end;
+			flex-direction: column;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: start;
+		}
+
+		.flexbox-item-a-0 {
+			display:block;
+			height: 1rem;
+			justify-content: center;
+		}
+
+		.flexbox-item-a-00 {
+			display:block;
+			width: 2.5%;
+			height: 100%;
+		}
+
+		.flexbox-item-a-1 {
+			height: 100%;
+			background-image: url("/images/a_sideline.png");
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		.flexbox-item-a-2 {
+			display:block;
+			width: 100%;
+			height: 8.3%;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: start;
+		}
 
 		.flexbox-container-resumee-0 {
 			display:flex;
@@ -925,6 +1036,7 @@ input, select, textarea {
 			height: 10rem;
 			justify-content: center;
 			flex-direction: column;
+			box-shadow: 10rem, 0rem, 0rem, 0rem rgb(255, 255, 255);
 		}
 
 		.flexbox-header-text {
