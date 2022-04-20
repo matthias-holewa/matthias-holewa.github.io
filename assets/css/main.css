@@ -920,28 +920,28 @@ input, select, textarea {
 
 		/* production */
 	
-		.flexbox-container-production-0 {
+		.flexbox-container-p-0 {
 			display:flex;
 			width: 100%;
 			justify-content: flex-start;
 			flex-direction: column;
 		}
 
-		.flexbox-container-production-1 {
+		.flexbox-container-p-1 {
 			display:flex;
 			width: 100%;
 			justify-content: flex-start;
 			flex-direction: row;
 		}
 
-		.flexbox-container-production-2 {
+		.flexbox-container-p-2 {
 			display:flex;
 			width: 35%;
 			justify-content: flex-start;
 			flex-direction: column;
 		}
 
-		.flexbox-container-production-3 {
+		.flexbox-container-p-3 {
 			display:flex;
 			height: 31,6%;
 			justify-content: flex-start;
@@ -949,14 +949,14 @@ input, select, textarea {
 			padding-top: 3%;
 		}
 
-		.flexbox-container-production-4 {
+		.flexbox-container-p-4 {
 			display:flex;
 			width: 3%;
 			justify-content: flex-start;
 			flex-direction: column;
 		}
 
-		.flexbox-container-production-5 {
+		.flexbox-container-p-5 {
 			display:flex;
 			width: 62%;
 			height: 100%;
@@ -964,7 +964,7 @@ input, select, textarea {
 			flex-direction: column;
 		}
 
-		.flexbox-container-production-6 {
+		.flexbox-container-p-6 {
 			display:flex;
 			height: 30%;
 			justify-content: flex-start;
@@ -972,7 +972,7 @@ input, select, textarea {
 			padding-top: 0.5%;
 		}
 
-		.flexbox-container-production-7 {
+		.flexbox-container-p-7 {
 			display:flex;
 			height: 50%;
 			justify-content: flex-end;
@@ -982,11 +982,124 @@ input, select, textarea {
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
-			text-align: justify;
+			text-align: start;
 			padding-top:4%;
 		}
 
-		.flexbox-container-production-8 {
+		.flexbox-container-p-8 {
+			display:flex;
+			height: 20%;
+			justify-content: end;
+			flex-direction: column;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: start;
+			padding-top: 1%;
+		}
+
+		.flexbox-item-p-0 {
+			display:block;
+			height: 1rem;
+			justify-content: center;
+		}
+
+		.flexbox-item-p-00 {
+			display:block;
+			width: 2.5%;
+			height: 100%;
+		}
+
+		.flexbox-item-p-1 {
+			display:flex;
+			width: 48.75%;
+		}
+
+		.flexbox-item-p-2 {
+			display:block;
+			width: 100%;
+			height: 8.3%;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: start;
+		}
+
+
+		/* visualization */
+
+		.flexbox-container-v-0 {
+			display:flex;
+			width: 100%;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-v-1 {
+			display:flex;
+			width: 100%;
+			justify-content: flex-start;
+			flex-direction: row;
+		}
+
+		.flexbox-container-v-2 {
+			display:flex;
+			width: 48.5%;
+			justify-content: flex-start;
+			flex-direction: column;
+			padding-top: 1.2%;
+		}
+
+		.flexbox-container-v-3 {
+			display:flex;
+			height: 31,6%;
+			justify-content: flex-start;
+			flex-direction: row;
+			padding-top: 3%;
+		}
+
+		.flexbox-container-v-4 {
+			display:flex;
+			width: 3%;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-v-5 {
+			display:flex;
+			width: 48.5%;
+			height: 100%;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-v-6 {
+			display:flex;
+			height: 30%;
+			justify-content: flex-start;
+			flex-direction: column;
+			padding-top: 0.5%;
+		}
+
+		.flexbox-container-v-7 {
+			display:flex;
+			height: 50%;
+			justify-content: flex-end;
+			flex-direction: column;
+			color: rgba(255, 255, 255, 1);
+			font-size: 0.8rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: start;
+			padding-top:4%;
+		}
+
+		.flexbox-container-v-8 {
 			display:flex;
 			height: 20%;
 			justify-content: end;
@@ -1000,24 +1113,24 @@ input, select, textarea {
 			padding-top: 1%;
 		}
 
-		.flexbox-item-production-0 {
+		.flexbox-item-v-0 {
 			display:block;
 			height: 1rem;
 			justify-content: center;
 		}
 
-		.flexbox-item-production-00 {
+		.flexbox-item-v-00 {
 			display:block;
 			width: 2.5%;
 			height: 100%;
 		}
 
-		.flexbox-item-production-1 {
+		.flexbox-item-v-1 {
 			display:flex;
 			width: 48.75%;
 		}
 
-		.flexbox-item-production-2 {
+		.flexbox-item-v-2 {
 			display:block;
 			width: 100%;
 			height: 8.3%;
@@ -1028,18 +1141,124 @@ input, select, textarea {
 			letter-spacing: 0.075em;
 		}
 
-		.flexbox-item-production-3 {
-			display:block;
+		.rounded {
+			border-radius: 0.4rem; 
+			overflow: hidden;
+			-webkit-transform: translateZ(0);	
+		}
+
+		/* Game Design */
+
+		.flexbox-container-g-0 {
+			display:flex;
 			width: 100%;
-			height: 33.3%;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-g-1 {
+			display:flex;
+			width: 100%;
+			justify-content: flex-start;
+			flex-direction: row;
+		}
+
+		.flexbox-container-g-2 {
+			display:flex;
+			width: 48.5%;
+			justify-content: flex-start;
+			flex-direction: column;
+			padding-top: 1.2%;
+		}
+
+		.flexbox-container-g-3 {
+			display:flex;
+			height: 31,6%;
+			justify-content: flex-start;
+			flex-direction: row;
+			padding-top: 3%;
+		}
+
+		.flexbox-container-g-4 {
+			display:flex;
+			width: 3%;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-g-5 {
+			display:flex;
+			width: 48.5%;
+			height: 100%;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-g-6 {
+			display:flex;
+			height: 30%;
+			justify-content: flex-start;
+			flex-direction: column;
+			padding-top: 0.5%;
+		}
+
+		.flexbox-container-g-7 {
+			display:flex;
+			height: 50%;
+			justify-content: flex-end;
+			flex-direction: column;
+			color: rgba(255, 255, 255, 1);
+			font-size: 0.8rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: end;
+			padding-top:4%;
+		}
+
+		.flexbox-container-g-8 {
+			display:flex;
+			height: 20%;
+			justify-content: end;
+			flex-direction: column;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			letter-spacing: 0.075em;
 			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: end;
+			padding-top: 1%;
 		}
 
-		/* visualization */
+		.flexbox-item-g-0 {
+			display:block;
+			height: 1rem;
+			justify-content: center;
+		}
+
+		.flexbox-item-g-00 {
+			display:block;
+			width: 2.5%;
+			height: 100%;
+		}
+
+		.flexbox-item-g-1 {
+			display:flex;
+			width: 48.75%;
+		}
+
+		.flexbox-item-g-2 {
+			display:block;
+			width: 100%;
+			height: 8.3%;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: end;
+			
+		}
 
 		.rounded {
 			border-radius: 0.4rem; 
@@ -1047,73 +1266,109 @@ input, select, textarea {
 			-webkit-transform: translateZ(0);	
 		}
 
-		.flexbox-container-viz-0 {
-			display:flex;
-			justify-content: flex-start;
-			align-items: flex-start;
-			flex-direction: column;
-			padding-bottom: 2rem;
-		}
+		/* Engagement */ 
 
-		.flexbox-container-viz-1 {
+		.flexbox-container-e-0 {
 			display:flex;
 			width: 100%;
 			justify-content: flex-start;
-			flex-direction: row ;
-			
-			background-repeat: no-repeat;
-			background-size: 100%;
-			background-position: center;
-			
-			
+			flex-direction: column;
 		}
 
-		.flexbox-container-viz-2 {
+		.flexbox-container-e-1 {
 			display:flex;
 			width: 100%;
 			justify-content: flex-start;
-			flex-direction: row ;
+			flex-direction: row;
 		}
 
-		.flexbox-container-viz-3 {
+		.flexbox-container-e-2 {
 			display:flex;
-			width: 48.5%;
-			justify-content: center;
-			flex-direction: column;
-			background-color: #909498;
-		}
-
-		.flexbox-container-viz-4 {
-			display:flex;
-			width: 48.5%;
+			width: 35%;
 			justify-content: flex-start;
 			flex-direction: column;
 		}
 
-		.flexbox-container-viz-6 {
+		.flexbox-container-e-3 {
 			display:flex;
-			height: 7.5%;
+			height: 31,6%;
+			justify-content: flex-start;
+			flex-direction: row;
+			padding-top: 3%;
+		}
+
+		.flexbox-container-e-4 {
+			display:flex;
+			width: 3%;
 			justify-content: flex-start;
 			flex-direction: column;
 		}
-		
-		.flexbox-item-viz-1 {
-			display:block;
-			width: 100%;
+
+		.flexbox-container-e-5 {
+			display:flex;
+			width: 62%;
 			height: 100%;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-e-6 {
+			display:flex;
+			height: 30%;
+			justify-content: flex-start;
+			flex-direction: column;
+			padding-top: 0.5%;
+		}
+
+		.flexbox-container-e-7 {
+			display:flex;
+			height: 50%;
+			justify-content: flex-end;
+			flex-direction: column;
 			color: rgba(255, 255, 255, 1);
 			font-size: 0.8rem;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
-			text-align: start;
-		
+			text-align: end;
+			padding-top:4%;
 		}
 
-		.flexbox-item-viz-2 {
+		.flexbox-container-e-8 {
+			display:flex;
+			height: 20%;
+			justify-content: end;
+			flex-direction: column;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: end;
+			padding-top: 1%;
+		}
+
+		.flexbox-item-e-0 {
+			display:block;
+			height: 1rem;
+			justify-content: center;
+		}
+
+		.flexbox-item-e-00 {
+			display:block;
+			width: 2.5%;
+			height: 100%;
+		}
+
+		.flexbox-item-e-1 {
+			display:flex;
+			width: 48.75%;
+		}
+
+		.flexbox-item-e-2 {
 			display:block;
 			width: 100%;
-			height: 100%;
+			height: 8.3%;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -1122,34 +1377,99 @@ input, select, textarea {
 			text-align: end;
 		}
 
-		.flexbox-item-viz-3 {
+		/* Reading */
+
+		.flexbox-container-r-0 {
+			display:flex;
+			width: 100%;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-r-1 {
+			display:flex;
+			width: 100%;
+			justify-content: flex-start;
+			flex-direction: row;
+		}
+
+		.flexbox-container-r-2 {
+			display:flex;
+			width: 20%;
+			justify-content: flex-start;
+			flex-direction: column;
+			padding-top: 1%;
+		}
+
+		.flexbox-container-r-4 {
 			display:flex;
 			width: 3%;
+			justify-content: flex-start;
+			flex-direction: column;
 		}
 
-		.flexbox-item-viz-4 {
-			display:block;
-			object-fit: contain;
-			width: 98.7%;
-			margin: 0.2rem;
-			/*width: 59.3%;*/
-			/*border-color: white;
-			border: 0.5rem solid white;*/
+		.flexbox-container-r-5 {
+			display:flex;
+			width: 62%;
+			height: 100%;
+			justify-content: flex-start;
+			flex-direction: column;
 		}
 
-		.flexbox-item-viz-5 {
-			display:block;
-			width: 100%;
-			height: 75%;
+		.flexbox-container-r-6 {
+			display:flex;
+			height: 30%;
+			justify-content: flex-start;
+			flex-direction: column;
+			padding-top: 0.5%;
+		}
+
+		.flexbox-container-r-7 {
+			display:flex;
+			height: 50%;
+			justify-content: flex-end;
+			flex-direction: column;
+			color: rgba(255, 255, 255, 1);
+			font-size: 0.8rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: start;
+			padding-top:4%;
+		}
+
+		.flexbox-container-r-8 {
+			display:flex;
+			height: 20%;
+			justify-content: end;
+			flex-direction: column;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
-	
+			text-align: start;
+			padding-top: 1%;
 		}
 
-		.flexbox-item-viz-6 {
+		.flexbox-item-r-0 {
+			display:block;
+			height: 1rem;
+			justify-content: center;
+		}
+
+		.flexbox-item-r-00 {
+			display:block;
+			width: 2.5%;
+			height: 100%;
+		}
+
+		.flexbox-item-r-1 {
+			display:flex;
+			width: 100%;
+		}
+
+		.flexbox-item-r-2 {
 			display:block;
 			width: 100%;
 			height: 8.3%;
@@ -1158,17 +1478,8 @@ input, select, textarea {
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
+			text-align: start;
 		}
-
-		.flexbox-item-viz-7 {
-			display:block;
-			width: 100%;
-			padding-top: 3rem;
-			padding-bottom: 3rem;
-			padding-left: 20%;
-			padding-right: 20%;
-		}
-
 
 		/* Resumee */
 
