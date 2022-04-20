@@ -895,28 +895,27 @@ input, select, textarea {
 
 /* Flexbox Container */
 
-		/* Art */
+		/* Resumee */
 
-			.flexbox-container-art-0 {
-				display:flex;
-				justify-content: flex-start;
-				align-items: flex-start;
-				flex-direction: column;
-			}
+		.flexbox-container-resumee-0 {
+			display:flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+			flex-direction: column;
+		}
 
-			.flexbox-container-art-1 {
-				display:flex;
-				justify-content: flex-start;
-				align-items: stretch;
-				flex-direction: row ;
-			}
+		.flexbox-container-resumee-1 {
+			display:flex;
+			justify-content: flex-start;
+			align-items: stretch;
+			flex-direction: row ;
+		}
 
-			.flexbox-item-art {
-				width: 20%;
-				object-fit: contain;
-				padding: 1rem;
-			}
-
+		.flexbox-item-resumee {
+			width: 50%;
+			object-fit: contain;
+			padding: 1rem;
+		}
 
 		/* production */
 	
@@ -1481,24 +1480,24 @@ input, select, textarea {
 			text-align: start;
 		}
 
-		/* Resumee */
+		/* Art */
 
-		.flexbox-container-resumee-0 {
+		.flexbox-container-art-0 {
 			display:flex;
 			justify-content: flex-start;
 			align-items: flex-start;
 			flex-direction: column;
 		}
 
-		.flexbox-container-resumee-1 {
+		.flexbox-container-art-1 {
 			display:flex;
 			justify-content: flex-start;
 			align-items: stretch;
 			flex-direction: row ;
 		}
 
-		.flexbox-item-resumee {
-			width: 50%;
+		.flexbox-item-art {
+			width: 20%;
 			object-fit: contain;
 			padding: 1rem;
 		}
