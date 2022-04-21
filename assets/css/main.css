@@ -902,9 +902,23 @@ input, select, textarea {
 			width: 29%;
 		}
 
+		.flexbox-container-a-00 {
+			display:flex;
+			height: 100%;
+			justify-content: flex-start;
+			flex-direction: row;
+		}
+
+		.flexbox-container-a-000 {
+			display:flex;
+			width: 30%;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
 		.flexbox-container-a-0 {
 			display:flex;
-			width: 100%;
+			width: 70%;
 			justify-content: flex-start;
 			flex-direction: column;
 		}
@@ -928,7 +942,7 @@ input, select, textarea {
 			width: 5%;
 			justify-content: center;
 			flex-direction: column;
-			padding-top: 2rem;
+			padding-top: 4rem;
 		}
 
 		.flexbox-container-a-2b {
@@ -976,7 +990,7 @@ input, select, textarea {
 
 		.flexbox-container-a-5 {
 			display:flex;
-			width: 63%;
+			width: 100%;
 			height: 100%;
 			justify-content: flex-start;
 			flex-direction: column;
@@ -992,11 +1006,11 @@ input, select, textarea {
 
 		.flexbox-container-a-6 {
 			display:flex;
-			height: 30%;
+		
 			width: 94%;
 			justify-content: flex-start;
 			flex-direction: column;
-			padding-top: 2rem;
+			padding-top: 4rem;
 		}
 
 		.flexbox-container-a-7 {
@@ -1026,6 +1040,14 @@ input, select, textarea {
 			height: 100%;
 		}
 
+		.flexbox-item-a-0b {
+			width: 100%;
+			/*background-image: url("/images/a_profile2.png");
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;*/
+		}
+
 		.flexbox-item-a-1 {
 			height: 100%;
 			background-image: url("/images/a_sideline4.png");
@@ -1037,7 +1059,7 @@ input, select, textarea {
 		.flexbox-item-a-2 {
 			display:block;
 			width: 100%;
-			height: 8.3%;
+			
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -1048,10 +1070,10 @@ input, select, textarea {
 
 		.flexbox-item-a-3 {
 			width: 100%;
-			background-image: url("/images/a_sideline.png");
+			/*background-image: url("/images/a_sideline.png");
 			background-size: contain;
 			background-repeat: no-repeat;
-			background-position: center;
+			background-position: center;*/
 		}
 
 		.flexbox-container-resumee-0 {
