@@ -906,7 +906,7 @@ input, select, textarea {
 			display:flex;
 			height: 100%;
 			justify-content: flex-start;
-			flex-direction: row;
+			flex-direction: column;
 		}
 
 		.flexbox-container-a-000 {
@@ -918,7 +918,7 @@ input, select, textarea {
 
 		.flexbox-container-a-0 {
 			display:flex;
-			width: 70%;
+			width: 100%;
 			justify-content: flex-start;
 			flex-direction: column;
 		}
