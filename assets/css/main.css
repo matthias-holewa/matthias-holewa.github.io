@@ -923,6 +923,27 @@ input, select, textarea {
 			flex-direction: column;
 		}
 
+		.flexbox-container-a-2b {
+			display:flex;
+			width: 100%;
+			justify-content: center;
+			flex-direction: row;
+		}
+
+		.flexbox-container-a-2c {
+			display:flex;
+			width: 50%;
+			justify-content: center;
+			flex-direction: row;
+		}
+
+		.flexbox-container-a-2d {
+			display:flex;
+			width: 50%;
+			justify-content: center;
+			flex-direction: row;
+		}
+
 		.flexbox-container-a-3 {
 			display:flex;
 			height: 31,6%;
@@ -966,6 +987,7 @@ input, select, textarea {
 			display:flex;
 			justify-content: flex-start;
 			flex-direction: row;
+			padding-top: 1rem;
 		}
 
 		.flexbox-container-a-8 {
