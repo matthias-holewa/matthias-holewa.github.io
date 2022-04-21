@@ -919,8 +919,14 @@ input, select, textarea {
 		.flexbox-container-profil-2 {
 			display:flex;
 			width: 35%;
+			
+			background-image: url("/images/a_profile.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+			
 			justify-content: flex-start;
 			flex-direction: column;
+			
 		}
 
 		.flexbox-container-profil-3 {
