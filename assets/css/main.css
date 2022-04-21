@@ -909,9 +909,33 @@ input, select, textarea {
 			flex-direction: column;
 		}
 
-		.flexbox-container-a-000 {
+		
+
+		.flexbox-container-a-0000 {
 			display:flex;
-			width: 30%;
+			width: 45%;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-a-00000 {
+			display:flex;
+			width: 100%;
+			justify-content: flex-start;
+			flex-direction: row;
+			padding-left: 1.5rem;
+		}
+
+		.flexbox-container-a-gap {
+			display:flex;
+			width: 5%;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+		.flexbox-container-a-000000 {
+			display:flex;
+			width: 50%;
 			justify-content: flex-start;
 			flex-direction: column;
 		}
