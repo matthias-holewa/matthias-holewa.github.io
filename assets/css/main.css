@@ -907,7 +907,7 @@ input, select, textarea {
 		.flexbox-header {
 			display: flex;
 			width: 100%;
-			height: 10rem;
+			height: 7rem;
 			justify-content: center;
 			flex-direction: column;
 		}
@@ -1043,6 +1043,7 @@ input, select, textarea {
 			justify-content: flex-start;
 			flex-direction: row;
 			padding-right: 2rem;
+			padding-left: 2rem;
 		}
 
 		.flexbox-about-container-11 {
@@ -1139,7 +1140,7 @@ input, select, textarea {
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
-			padding-top: 1.5rem;
+			padding-top: 0.5rem;
 		}
 
 		/* production */
