@@ -950,6 +950,7 @@ input, select, textarea {
 			flex-direction: row;
 			padding-left: 1.5rem;
 			padding-top: 4rem;
+			padding-right: 2rem;
 		}
 
 		.flexbox-about-container-0c {
@@ -1005,7 +1006,7 @@ input, select, textarea {
 		.flexbox-about-container-7 {
 			display:flex;
 			width: 50%;
-			justify-content: center;
+			justify-content: flex-start;
 			flex-direction: row;
 		}
 
@@ -1020,7 +1021,6 @@ input, select, textarea {
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
-			padding-top:4%;
 		}
 
 		.flexbox-about-container-9 {
@@ -1042,6 +1042,7 @@ input, select, textarea {
 			width: 100%;
 			justify-content: flex-start;
 			flex-direction: row;
+			padding-right: 2rem;
 		}
 
 		.flexbox-about-container-11 {
@@ -1113,7 +1114,8 @@ input, select, textarea {
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
-			text-align: start;
+			text-align: end;
+			justify-content: flex-end;
 		}
 
 		.flexbox-about-item-4 {
@@ -1127,7 +1129,19 @@ input, select, textarea {
 		.flexbox-about-item-5 {
 			width: 100%;
 		}
-		
+
+		.flexbox-about-item-6 {
+			display:flex;
+			width: 100%;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: start;
+			padding-top: 1.5rem;
+		}
+
 		/* production */
 	
 		.flexbox-production-container-0 {
