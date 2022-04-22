@@ -914,39 +914,28 @@ input, select, textarea {
 			width: 100%;
 			justify-content: flex-start;
 			flex-direction: row;
+			
 		}
 
-		.flexbox-container-profil-2 {
-			display:flex;
-			width: 35%;
-			
-			background-image: url("/images/a_profile.png");
-			background-size: cover;
-			background-repeat: no-repeat;
-			
-			justify-content: flex-start;
-			flex-direction: column;
-			
-		}
+		
 
 		.flexbox-container-profil-3 {
 			display:flex;
-			height: 31,6%;
+			width: 30%;
 			justify-content: flex-start;
 			flex-direction: row;
-			padding-top: 3%;
 		}
 
 		.flexbox-container-profil-4 {
 			display:flex;
-			width: 3%;
+			width: 5%;
 			justify-content: flex-start;
 			flex-direction: column;
 		}
 
 		.flexbox-container-profil-5 {
 			display:flex;
-			width: 62%;
+			width: 65%;
 			height: 100%;
 			justify-content: flex-start;
 			flex-direction: column;
@@ -991,6 +980,7 @@ input, select, textarea {
 		.flexbox-item-profil-1 {
 			display:flex;
 			width: 100%;
+			
 		}
 
 		.flexbox-item-profil-2 {
@@ -1019,6 +1009,7 @@ input, select, textarea {
 			justify-content: flex-start;
 			flex-direction: row;
 			padding-left: 1.5rem;
+			padding-top: 4rem;
 		}
 
 		.flexbox-container-a-gap {
@@ -1210,26 +1201,6 @@ input, select, textarea {
 			background-position: center;*/
 		}
 
-		.flexbox-container-resumee-0 {
-			display:flex;
-			justify-content: flex-start;
-			align-items: flex-start;
-			flex-direction: column;
-		}
-
-		.flexbox-container-resumee-1 {
-			display:flex;
-			justify-content: flex-start;
-			align-items: stretch;
-			flex-direction: row ;
-		}
-
-		.flexbox-item-resumee {
-			width: 50%;
-			object-fit: contain;
-			padding: 1rem;
-		}
-
 		/* production */
 	
 		.flexbox-header {
@@ -1238,7 +1209,6 @@ input, select, textarea {
 			height: 10rem;
 			justify-content: center;
 			flex-direction: column;
-			box-shadow: 10rem, 0rem, 0rem, 0rem rgb(255, 255, 255);
 		}
 
 		.flexbox-header-text {
@@ -1351,6 +1321,7 @@ input, select, textarea {
 		.flexbox-item-p-1 {
 			display:flex;
 			width: 48.75%;
+			
 		}
 
 		.flexbox-item-p-2 {
@@ -1480,7 +1451,8 @@ input, select, textarea {
 		.rounded {
 			border-radius: 0.4rem; 
 			overflow: hidden;
-			-webkit-transform: translateZ(0);	
+			-webkit-transform: translateZ(0);
+			box-shadow: 0rem 0rem 0rem 0.1rem rgba(255, 255, 255, 0.5);	
 		}
 
 		/* Game Design */
