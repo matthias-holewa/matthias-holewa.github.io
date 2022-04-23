@@ -1691,28 +1691,6 @@ input, select, textarea {
 				text-align: center;
 			}
 
-			header.major > .date {
-				font-size: 1rem;
-				margin: 0 0 4rem 0;
-			}
-
-				header.major > .date:before, header.major > .date:after {
-					content: '';
-					display: block;
-					position: absolute;
-					top: 50%;
-					width: calc(50% - 6rem);
-					border-top: solid 2px;
-				}
-
-				header.major > .date:before {
-					left: 0;
-				}
-
-				header.major > .date:after {
-					right: 0;
-				}
-
 		@media screen and (max-width: 980px) {
 
 			header br {
@@ -1721,17 +1699,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
-
-			header.major {
-				margin: 0 0 2rem 0;
-			}
-
-		}
-
-	header.major .date:before, header.major .date:after {
-		border-top-color: #eeeeee;
-	}
+	
 
 
 /* Wrapper */
@@ -1828,119 +1796,6 @@ input, select, textarea {
 		-webkit-border-top-right-radius: 0.8rem;
 		-webkit-border-top-left-radius: 0.8rem;
 	}
-
-	/*#header {
-		color: #ffffff;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-moz-justify-content: -moz-flex-end;
-		-webkit-justify-content: -webkit-flex-end;
-		-ms-justify-content: -ms-flex-end;
-		justify-content: flex-end;
-		pointer-events: none;
-		-moz-user-select: none;
-		-webkit-user-select: none;
-		-ms-user-select: none;
-		user-select: none;
-		height: 15rem;
-		position: relative;
-		text-align: center;
-		z-index: 2;
-		margin-left: 5rem;
-		margin-right: 5rem;
-		margin-top: 2rem;
-	}
-
-		#header input, #header select, #header textarea {
-			color: #ffffff;
-		}
-
-		#header a {
-			color: #ffffff;
-			border-bottom-color: rgba(255, 255, 255, 0.5);
-		}
-
-			#header a:hover {
-				border-bottom-color: transparent;
-				color: #ffffff !important;
-			}
-
-		#header strong, #header b {
-			color: #ffffff;
-		}
-
-		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
-		}
-
-		#header blockquote {
-			border-left-color: #ffffff;
-		}
-
-		#header code {
-			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
-		}
-
-		#header hr {
-			border-bottom-color: #ffffff;
-		}
-
-		#header .logo {
-			-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
-			-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
-			-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
-			transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
-			pointer-events: auto;
-			border-style: transparent;
-			border-color: rgba(0, 0, 0, 0);
-			border-width: 5px !important;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-size: 2.25rem;
-			font-weight: 900;
-			letter-spacing: 0.075em;
-			line-height: 1;
-			padding: 1rem 1.75rem;
-			text-transform: uppercase;
-			visibility: visible;
-		}
-
-			#header .logo:hover {
-				border-color: rgba(0, 0, 0, 0) !important;
-				color: #ffffff !important;
-			}
-
-		@media screen and (max-width: 980px) {
-
-			#header {
-				height: 14rem;
-				padding-bottom: 4rem;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			#header {
-				padding-bottom: 3rem;
-			}
-
-				#header .logo {
-					font-size: 1.75rem;
-					border-width: 3px !important;
-				}
-
-		}*/
 
 /* Nav */
 
@@ -2039,6 +1894,7 @@ input, select, textarea {
 	#main {
 		background-color: rgba(255, 255, 255, 0.1);
 		position: relative;
+		justify-content: center;
 		margin-left: 5rem;
 		margin-right: 5rem;
 		width: calc(100% - 4rem);
@@ -2118,7 +1974,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main > * {
-				padding: 2rem 2rem 0.1rem 2rem ;
+				padding: 2rem 4rem 0.1rem 4rem ;
 			}
 
 		}
