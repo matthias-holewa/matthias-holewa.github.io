@@ -1895,8 +1895,8 @@ input, select, textarea {
 		background-color: rgba(255, 255, 255, 0.1);
 		position: relative;
 		justify-content: center;
-		margin-left: 5rem;
-		margin-right: 5rem;
+		margin-left: auto;
+		margin-right: auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
