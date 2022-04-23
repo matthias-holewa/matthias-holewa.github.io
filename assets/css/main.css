@@ -959,7 +959,7 @@ input, select, textarea {
 			justify-content: flex-start;
 			flex-direction: row;
 			padding-left: 2rem;
-			padding-top: 4rem;
+			padding-top: 3rem;
 			padding-right: 2rem;
 			padding-bottom: 2rem;
 		}
@@ -1999,6 +1999,7 @@ input, select, textarea {
 			margin-bottom: 0;
 			padding-left: 0;
 			text-transform: uppercase;
+			justify-content: center;
 		}
 
 			#nav ul.links li {
@@ -2088,6 +2089,19 @@ input, select, textarea {
 
 			}
 
+			@media screen and (max-width: 980px) {
+
+				#main > .post {
+					padding-top: 2rem;
+					padding-left: 4rem;
+					padding-right: 4rem;
+					padding-bottom: 4rem;
+				}
+
+				
+	
+			}
+
 			@media screen and (max-width: 736px) {
 
 				#main > .post {
@@ -2105,6 +2119,19 @@ input, select, textarea {
 						margin: 0 0 1.5rem 0;
 					}
 
+			}
+
+			@media screen and (max-width: 980px) {
+
+				#main {
+					-webkit-border-top-left-radius: 0.8rem;
+					-webkit-border-top-right-radius: 0.8rem;
+					-webkit-border-bottom-left-radius: 0.8rem;
+					-webkit-border-bottom-right-radius: 0.8rem;
+				}
+
+				
+	
 			}
 
 		#main > .posts {
