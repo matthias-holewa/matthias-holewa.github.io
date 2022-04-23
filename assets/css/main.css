@@ -900,8 +900,18 @@ input, select, textarea {
 			overflow: hidden;
 			-webkit-transform: translateZ(0);
 			box-shadow: 0rem 0rem 0rem 0.1rem rgba(255, 255, 255, 0.5);	
+			transition: box-shadow .3s;
 		}
 
+		video{
+			display:block;
+			width:100%;
+			height: 100%;
+		}
+
+		.rounded:hover {
+			box-shadow: 0rem 0rem 0rem 0.1rem rgba(255, 255, 255, 1);
+		}
 		/* Page-Header */
 
 		.flexbox-header {
@@ -948,9 +958,10 @@ input, select, textarea {
 			height: 100%;
 			justify-content: flex-start;
 			flex-direction: row;
-			padding-left: 1.5rem;
+			padding-left: 2rem;
 			padding-top: 4rem;
 			padding-right: 2rem;
+			padding-bottom: 2rem;
 		}
 
 		.flexbox-about-container-0c {
@@ -1034,7 +1045,6 @@ input, select, textarea {
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
-			padding-top: 1%;
 		}
 
 		.flexbox-about-container-10 {
@@ -1063,10 +1073,11 @@ input, select, textarea {
 
 		.flexbox-about-container-13 {
 			display:flex;
-			width: 94%;
+			width: 100%;
 			justify-content: flex-start;
 			flex-direction: column;
-			padding-top: 4rem;
+			padding-top: 2rem;
+			padding-bottom: 2rem;
 		}
 
 		.flexbox-about-container-14 {
