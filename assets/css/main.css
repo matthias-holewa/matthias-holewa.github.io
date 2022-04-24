@@ -912,7 +912,17 @@ input, select, textarea {
 		.rounded:hover {
 			box-shadow: 0rem 0rem 0rem 0.1rem rgba(255, 255, 255, 1);
 		}
+
 		/* Page-Header */
+
+		.headline {
+			position: relative;
+			justify-content: center;
+			margin-left: auto;
+			margin-right: auto;
+			width: calc(100% - 4rem);
+			max-width: 72rem;
+		}
 
 		.flexbox-header {
 			display: flex;
@@ -952,6 +962,13 @@ input, select, textarea {
 			color:rgb(255, 255, 255);
 			-webkit-border-top-left-radius: 0.8rem;
 			-webkit-border-top-right-radius: 0.8rem;
+		}
+		@media screen and (max-width: 980px) {
+
+			.navigation {
+				display: none;
+			}
+
 		}
 
 		.flexbox-navigation-1 {
@@ -1208,6 +1225,8 @@ input, select, textarea {
 			flex-direction: row;
 			padding-left: 2rem;
 			padding-right: 2rem;
+			padding-top: 3rem;
+			padding-bottom: 2rem;
 		}
 
 		.flexbox-production-container-2 {
@@ -1321,6 +1340,8 @@ input, select, textarea {
 			flex-direction: row;
 			padding-left: 2rem;
 			padding-right: 2rem;
+			padding-bottom: 2rem;
+			padding-top: 3rem;
 		}
 
 		.flexbox-visualization-container-2 {
@@ -1414,6 +1435,10 @@ input, select, textarea {
 			width: 100%;
 			justify-content: flex-start;
 			flex-direction: row;
+			padding-top: 3rem;
+			padding-bottom: 2rem;
+			padding-left: 2rem;
+			padding-right: 2rem;
 		}
 
 		.flexbox-reading-container-2 {
@@ -1505,6 +1530,7 @@ input, select, textarea {
 			justify-content: flex-start;
 			align-items: flex-start;
 			flex-direction: column;
+			padding-top: 2rem;
 		}
 
 		.flexbox-fun-container-1 {
