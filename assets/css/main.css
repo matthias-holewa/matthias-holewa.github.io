@@ -957,7 +957,7 @@ input, select, textarea {
 			margin-right: auto;
 			width: calc(100% - 4rem);
 			max-width: 72rem;
-			
+			border: none;
 			z-index: 2;
 			color:rgb(255, 255, 255);
 			-webkit-border-top-left-radius: 0.8rem;
