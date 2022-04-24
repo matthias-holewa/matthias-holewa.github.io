@@ -1950,7 +1950,7 @@ input, select, textarea {
 		}
 
 			#main > *:first-child {
-				border-top: 0;
+				border-top: none;
 			}
 
 		#main > footer {
