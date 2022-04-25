@@ -240,7 +240,7 @@ input, select, textarea {
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			border-bottom: 0;
+			border-bottom: none;
 			color: inherit;
 			text-decoration: none;
 		}
@@ -1238,7 +1238,7 @@ input, select, textarea {
 
 		.flexbox-production-container-3 {
 			display:flex;
-			height: 31,6%;
+			height: 47%;
 			justify-content: flex-start;
 			flex-direction: row;
 			padding-top: 3%;
@@ -1296,24 +1296,25 @@ input, select, textarea {
 		}
 
 		.flexbox-production-item-1 {
-			display:block;
+			display:flex;
 			height: 1rem;
 			justify-content: center;
 		}
 
 		.flexbox-production-item-2 {
 			display:flex;
-			width: 48.75%;	
+			width: 100%;
+			
 		}
 
 		.flexbox-production-item-3 {
-			display:block;
+			display:flex;
 			width: 2.5%;
-			height: 100%;
+		
 		}
 
 		.flexbox-production-item-4 {
-			display:block;
+			display:flex;
 			width: 100%;
 			height: 8.3%;
 			color: rgba(255, 255, 255, 0.5);
@@ -2063,7 +2064,7 @@ input, select, textarea {
 
 		#copyright a {
 			color: #ffffff;
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
 		#copyright a {
