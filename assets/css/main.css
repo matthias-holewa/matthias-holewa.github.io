@@ -554,12 +554,14 @@ input::-moz-focus-inner {
 			justify-content: center;
 			flex-direction: row;
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.8rem;
+			font-size: 0.9rem;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
-			padding-top: 1rem;
+			padding-top: 1.5rem;
+			padding-bottom: 1.5rem;
+			
 		}
 
 		/* About */
@@ -620,7 +622,7 @@ input::-moz-focus-inner {
 
 		.flexbox-about-container-4 {
 			display:flex;
-			height: 30%;
+			height: 50%;
 			justify-content: flex-start;
 			flex-direction: column;
 		}
@@ -648,7 +650,7 @@ input::-moz-focus-inner {
 
 		.flexbox-about-container-8 {
 			display:flex;
-			height: 50%;
+			height: 40%;
 			justify-content: flex-end;
 			flex-direction: column;line-height: 150%;
 			color: rgba(255, 255, 255, 1);
@@ -661,7 +663,7 @@ input::-moz-focus-inner {
 
 		.flexbox-about-container-9 {
 			display:flex;
-			height: 20%;
+			height: 10%;
 			justify-content: end;
 			flex-direction: column;
 			color: rgba(255, 255, 255, 0.5);
@@ -710,7 +712,7 @@ input::-moz-focus-inner {
 			display:flex;
 			justify-content: flex-start;
 			flex-direction: row;
-			padding-top: 1rem;
+			padding-top: 1.5rem;
 		}
 
 		.flexbox-about-container-15 {
@@ -849,7 +851,7 @@ input::-moz-focus-inner {
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
-			padding-top:4%;
+			padding-top:15%;
 		}
 
 		.flexbox-production-container-8 {
@@ -958,7 +960,7 @@ input::-moz-focus-inner {
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
-			padding-top:4%;
+			padding-top:15%;
 		}
 
 		.flexbox-visualization-container-7 {
