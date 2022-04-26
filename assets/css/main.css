@@ -600,11 +600,30 @@ input::-moz-focus-inner {
 			flex-direction: row;
 		}
 
+		@media screen and (max-width: 450px) {
+
+			.flexbox-about-container-0c {
+				flex-direction: column;
+				width: 100%;
+				padding-top: 0rem;
+			}
+		}
+
 		.flexbox-about-container-1 {
 			display:flex;
 			width: 30%;
 			justify-content: flex-start;
 			flex-direction: row;
+		}
+
+		@media screen and (max-width: 450px) {
+
+			.flexbox-about-container-1 {
+		
+				width: 100%;
+				height: 100%;
+				padding-top: 0rem;
+			}
 		}
 
 		.flexbox-about-container-2 {
@@ -621,12 +640,31 @@ input::-moz-focus-inner {
 			justify-content: flex-start;
 			flex-direction: column;
 		}
+		
+		@media screen and (max-width: 450px) {
+
+			.flexbox-about-container-3 {
+		
+				width: 100%;
+				height: 100%;
+				padding-top: 0rem;
+			}
+		}
 
 		.flexbox-about-container-4 {
 			display:flex;
 			height: 50%;
 			justify-content: flex-start;
 			flex-direction: column;
+		}
+		@media screen and (max-width: 450px) {
+
+			.flexbox-about-container-4 {
+		
+				width: 100%;
+				height: 100%;
+				padding-top: 0rem;
+			}
 		}
 		
 		.flexbox-about-container-5 {
@@ -734,6 +772,15 @@ input::-moz-focus-inner {
 		.flexbox-about-item-1 {
 			display:flex;
 			width: 100%;
+		}
+
+		@media screen and (max-width: 450px) {
+
+			.flexbox-about-item-1 {
+				align-content: center;
+				height: 100%;
+				padding-top: 0rem;
+			}
 		}
 
 		.flexbox-about-item-2 {
