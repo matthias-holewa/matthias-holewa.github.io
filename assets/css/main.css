@@ -2174,7 +2174,7 @@ header.major .date:before, header.major .date:after {
 				width: 100%;
 				padding-left:1rem;
 				padding-right: 1rem;
-			
+				background-color: rgba(255, 255, 255, 0.2);
 			}
 
 		}
