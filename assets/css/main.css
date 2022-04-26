@@ -2197,7 +2197,7 @@ header.major .date:before, header.major .date:after {
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		display: none;
 		-webkit-overflow-scrolling: touch;
-		background-color:  rgba(255, 255, 255, 0.9);
+		background-color:  rgba(255, 255, 255, 0.95);
 		box-shadow: none;
 		color: #212931;
 		height: 100%;
