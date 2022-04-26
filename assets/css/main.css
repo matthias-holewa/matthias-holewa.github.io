@@ -650,12 +650,12 @@ input::-moz-focus-inner {
 			display:flex;
 			height: 50%;
 			justify-content: flex-end;
-			flex-direction: column;
+			flex-direction: column;line-height: 150%;
 			color: rgba(255, 255, 255, 1);
 			font-size: 0.8rem;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
-			letter-spacing: 0.075em;
+			letter-spacing: 0.05rem;
 			text-align: start;
 		}
 
@@ -736,7 +736,7 @@ input::-moz-focus-inner {
 			display:flex;
 			width: 100%;
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.8rem;
+			font-size: 1rem;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
@@ -773,10 +773,11 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-weight: 500;
 			letter-spacing: 0.075em;
 			text-align: start;
 			padding-top: 0.5rem;
+			font-style: normal;
 		}
 
 		/* production */
