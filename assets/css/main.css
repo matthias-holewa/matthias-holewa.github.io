@@ -1112,7 +1112,7 @@ input::-moz-focus-inner {
 			height: 47%;
 			justify-content: flex-start;
 			flex-direction: row;
-			padding-top: 3%;
+			padding-top: 4%;
 		}
 
 		.flexbox-production-container-4 {
@@ -1153,6 +1153,7 @@ input::-moz-focus-inner {
 			flex-direction: column;
 			color: rgba(255, 255, 255, 1);
 			font-size: 0.8rem;
+			line-height: 150%;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
@@ -1164,6 +1165,7 @@ input::-moz-focus-inner {
 
 			.flexbox-production-container-7 {
 				padding-top:5%;
+				font-size: 0.8rem;
 				
 			}
 		}
@@ -1175,12 +1177,25 @@ input::-moz-focus-inner {
 			flex-direction: column;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
+			line-height: 150%;
+			font-size: 0.8;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
 			padding-top: 1%;
 		}
+
+		@media screen and (max-width: 480px) {
+
+			.flexbox-production-container-8 {
+				padding-top:1rem;
+				
+				
+			}
+		}
+
+
 
 		.flexbox-production-item-1 {
 			display:flex;
@@ -1205,7 +1220,7 @@ input::-moz-focus-inner {
 			width: 100%;
 			height: 8.3%;
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 1.3rem;
+			font-size: 1rem;
 			line-height: 250%;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
@@ -1216,6 +1231,50 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 480px) {
 
 			.flexbox-production-item-4 {
+				
+				font-size: 0.8rem;
+			}
+		}
+
+
+		.flexbox-production-item-4b {
+			display:flex;
+			width: 100%;
+			height: 8.3%;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 1.3rem;
+			line-height: 250%;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: start;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.flexbox-production-item-4b {
+				display: none;
+				font-size: 0.8rem;
+			}
+		}
+
+		.flexbox-production-item-4b-short {
+			display:none;
+			width: 100%;
+			height: 8.3%;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 1.3rem;
+			line-height: 250%;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: start;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.flexbox-production-item-4b-short {
+				display:flex;
 				font-size: 0.8rem;
 			}
 		}
