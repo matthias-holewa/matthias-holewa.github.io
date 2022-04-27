@@ -648,13 +648,21 @@ input::-moz-focus-inner {
 			justify-content: flex-start;
 			flex-direction: column;
 		}
+		@media screen and (max-width: 480px) {
+
+			.flexbox-about-container-3 {
+				flex-direction: column;
+				height: 40%;
+				
+			}
+		}
 		
 		@media screen and (max-width: 480px) {
 
 			.flexbox-about-container-3 {
 		
 				width: 100%;
-				height: 100%;
+				height: 1000%;
 				padding-top: 0rem;
 			}
 		}
@@ -678,21 +686,22 @@ input::-moz-focus-inner {
 		.flexbox-about-container-5 {
 			display:flex;
 			width: 100%;
-			justify-content: center;
+			justify-content: flex-start;
 			flex-direction: row;
 		}
 
 		.flexbox-about-container-6 {
 			display:flex;
 			width: 70%;
-			justify-content: center;
+			justify-content: flex-start;
 			flex-direction: row;
 		}
 
 		@media screen and (max-width: 480px) {
 
 			.flexbox-about-container-6 {
-				width: 50%;
+				width: 45%;
+				justify-content: start;
 				
 			}
 		}
@@ -707,7 +716,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 480px) {
 
 			.flexbox-about-container-7 {
-				width: 50%;
+				width: 55%;
 				
 			}
 		}
@@ -717,7 +726,8 @@ input::-moz-focus-inner {
 			display:flex;
 			height: 40%;
 			justify-content: flex-end;
-			flex-direction: column;line-height: 150%;
+			flex-direction: column;
+			line-height: 150%;
 			color: rgba(255, 255, 255, 1);
 			font-size: 0.9rem;
 			line-height: 150%;
@@ -730,7 +740,8 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 480px) {
 
 			.flexbox-about-container-8 {
-		
+				height: 100%;
+				justify-content: flex-start;
 				font-size: 0.8rem;
 			}
 		}
@@ -738,14 +749,24 @@ input::-moz-focus-inner {
 		.flexbox-about-container-9 {
 			display:flex;
 			height: 10%;
-			justify-content: end;
+			justify-content: flex-start;
 			flex-direction: column;
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.8rem;
+			font-size: 0.9rem;
+			line-height: 250%;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.flexbox-about-container-9 {
+				
+				justify-content: flex-start;
+				font-size: 0.8rem;
+			}
 		}
 
 		.flexbox-about-container-10 {
@@ -755,6 +776,13 @@ input::-moz-focus-inner {
 			flex-direction: row;
 			padding-right: 2rem;
 			padding-left: 2rem;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.flexbox-about-container-10 {
+				flex-direction: column;
+			}
 		}
 
 		.flexbox-about-container-11 {
@@ -839,6 +867,28 @@ input::-moz-focus-inner {
 			}
 		}
 
+		.flexbox-about-item-2b {
+			display:flex;
+			width: 100%;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 1.3rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: start;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.flexbox-about-item-2b {
+				align-content: center;
+				height: 3rem;
+				font-size: 1rem;
+				padding-top: 1rem;
+			}
+		}
+
+
 		.flexbox-about-item-3a {
 			display:flex;
 			width: 100%;
@@ -852,8 +902,15 @@ input::-moz-focus-inner {
 			justify-content: flex-start;
 		}
 
-		.flexbox-about-item-3b {
-			display:flex;
+		@media screen and (max-width: 480px) {
+
+			.flexbox-about-item-3a {
+				display:none;
+			}
+		}
+
+		.flexbox-about-item-3a-short {
+			display:none;
 			width: 100%;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
@@ -861,8 +918,35 @@ input::-moz-focus-inner {
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
+			text-align: start;
+			justify-content: flex-start;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.flexbox-about-item-3a-short {
+				display:flex;
+			}
+		}
+
+		.flexbox-about-item-3b {
+			display:flex;
+			width: 100%;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.9rem;
+			line-height: 250%;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
 			text-align: end;
 			justify-content: flex-end;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.flexbox-about-item-3b {
+				font-size: 0.8rem;
+			}
 		}
 
 		.flexbox-about-item-4 {
@@ -881,13 +965,39 @@ input::-moz-focus-inner {
 			display:flex;
 			width: 100%;
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.8rem;
+			font-size: 0.9rem;
+			line-height: 150%;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.075em;
 			text-align: start;
 			padding-top: 0.5rem;
 			font-style: normal;
+		}
+
+		.flexbox-about-item-7 {
+			display:flex;
+			height: 100%;
+			justify-content: end;
+			flex-direction: column;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.9rem;
+			line-height: 300%;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: start;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.flexbox-about-item-7 {
+				height: 100%;
+				line-height: 150%;
+				justify-content: flex-start;
+				padding-top: 1rem;
+				font-size: 0.8rem;
+			}
 		}
 
 		/* production */
@@ -986,6 +1096,14 @@ input::-moz-focus-inner {
 			padding-top:15%;
 		}
 
+		@media screen and (max-width: 480px) {
+
+			.flexbox-production-container-7 {
+				padding-top:5%;
+				
+			}
+		}
+
 		.flexbox-production-container-8 {
 			display:flex;
 			height: 20%;
@@ -1023,11 +1141,19 @@ input::-moz-focus-inner {
 			width: 100%;
 			height: 8.3%;
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.8rem;
+			font-size: 1.3rem;
+			line-height: 250%;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.flexbox-production-item-4 {
+				font-size: 0.8rem;
+			}
 		}
 
 		/* visualization */
