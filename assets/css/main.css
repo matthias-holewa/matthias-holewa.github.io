@@ -860,7 +860,70 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 480px) {
 
 			.flexbox-about-item-2 {
-				align-content: center;
+				
+				height: 2rem;
+				font-size: 1rem;
+				padding-top: 1rem;
+			}
+		}
+
+		.flexbox-about-item-2a {
+			display:flex;
+			width: 100%;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 1.3rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: start;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.flexbox-about-item-2a {
+				height: 2rem;
+				font-size: 1rem;
+				padding-top: 1rem;
+				
+			}
+		}
+
+		@media screen and (max-width: 373px) {
+
+			.flexbox-about-item-2a {
+				display: none;
+				
+				
+			}
+		}
+
+		
+
+		.flexbox-about-item-2a-short {
+			display:none;
+			width: 100%;
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 1.3rem;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 10;
+			letter-spacing: 0.075em;
+			text-align: start;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.flexbox-about-item-2a {
+				height: 2rem;
+				font-size: 1rem;
+				padding-top: 1rem;
+				
+			}
+		}
+
+		@media screen and (max-width: 373px) {
+
+			.flexbox-about-item-2a-short {
+				display: flex;
 				height: 2rem;
 				font-size: 1rem;
 				padding-top: 1rem;
@@ -881,12 +944,13 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 480px) {
 
 			.flexbox-about-item-2b {
-				align-content: center;
+				
 				height: 3rem;
 				font-size: 1rem;
 				padding-top: 1rem;
 			}
 		}
+		
 
 
 		.flexbox-about-item-3a {
