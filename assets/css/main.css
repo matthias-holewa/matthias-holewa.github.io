@@ -1422,7 +1422,7 @@ input::-moz-focus-inner {
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
-			text-align: justify;
+			text-align: start;
 			padding-top: 1%;
 		}
 
