@@ -358,8 +358,8 @@ input::-moz-focus-inner {
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 0.8rem;
-		font-weight: 900;
+		font-size: 0.9rem;
+		font-weight: 400;
 		letter-spacing: 0.075em;
 		height: 3rem;
 		line-height: 3rem;
@@ -368,7 +368,7 @@ input::-moz-focus-inner {
 		margin-top: 1rem;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		
 		white-space: nowrap;
 		background-color: transparent;
 		box-shadow: 0rem 0rem 0rem 0.15rem rgba(255, 255, 255, 0.5);
@@ -398,11 +398,10 @@ input::-moz-focus-inner {
 		display: block;
 		background: transparent;
 		font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-		font-weight: 900;
+		font-weight: 150;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
-		font-size: 0.8rem;
-		text-transform: uppercase;
+		font-size: 0.9rem;
 		margin: 0 0 0.75rem 0;
 	}
 
@@ -510,7 +509,7 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
 			font-family: "Work Sans" ,"Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-weight: 250;
 			letter-spacing: 0.075em;
 			text-align: center;
 			box-shadow: 1rem, 1rem, 1rem, 1rem, rgba(255, 255, 255,1);
@@ -749,7 +748,7 @@ input::-moz-focus-inner {
 			font-size: 0.9rem;
 			line-height: 150%;
 			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 100;
+			font-weight: 270;
 			letter-spacing: 0.05rem;
 			text-align: start;
 		}
@@ -772,7 +771,7 @@ input::-moz-focus-inner {
 			font-size: 0.9rem;
 			line-height: 250%;
 			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-weight: 300;
 			letter-spacing: 0.075em;
 			text-align: start;
 		}
@@ -870,7 +869,7 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.3rem;
 			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 400;
+			font-weight: 300;
 			letter-spacing: 0.075em;
 			text-align: start;
 		}
@@ -891,7 +890,7 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.3rem;
 			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-weight: 300;
 			letter-spacing: 0.075em;
 			text-align: start;
 		}
@@ -923,7 +922,7 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.3rem;
 			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-weight: 300;
 			letter-spacing: 0.075em;
 			text-align: start;
 		}
@@ -954,7 +953,7 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.3rem;
 			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-weight: 300;
 			letter-spacing: 0.075em;
 			text-align: start;
 		}
@@ -975,10 +974,10 @@ input::-moz-focus-inner {
 			display:flex;
 			width: 100%;
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.8rem;
+			font-size: 0.9rem;
 			line-height: 250%;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 200;
 			letter-spacing: 0.075em;
 			text-align: start;
 			justify-content: flex-start;
@@ -995,10 +994,10 @@ input::-moz-focus-inner {
 			display:none;
 			width: 100%;
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.8rem;
+			font-size: 0.9rem;
 			line-height: 250%;
 			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-weight: 300;
 			letter-spacing: 0.075em;
 			text-align: start;
 			justify-content: flex-start;
@@ -1018,7 +1017,7 @@ input::-moz-focus-inner {
 			font-size: 0.9rem;
 			line-height: 250%;
 			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-weight: 300;
 			letter-spacing: 0.075em;
 			text-align: end;
 			justify-content: flex-end;
@@ -1050,7 +1049,7 @@ input::-moz-focus-inner {
 			font-size: 0.9rem;
 			line-height: 150%;
 			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 500;
+			font-weight: 270;
 			letter-spacing: 0.075em;
 			text-align: start;
 			padding-top: 0.5rem;
@@ -1066,7 +1065,7 @@ input::-moz-focus-inner {
 			font-size: 0.9rem;
 			line-height: 300%;
 			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-weight: 200;
 			letter-spacing: 0.075em;
 			text-align: start;
 		}
@@ -1087,10 +1086,10 @@ input::-moz-focus-inner {
 			display:flex;
 			width: 100%;
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.8rem;
+			font-size: 0.9rem;
 			line-height: 250%;
 			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-weight: 200;
 			letter-spacing: 0.075em;
 			text-align: start;
 			justify-content: flex-start;
@@ -1187,7 +1186,7 @@ input::-moz-focus-inner {
 			font-size: 0.8rem;
 			line-height: 150%;
 			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-weight: 250;
 			letter-spacing: 0.075em;
 			text-align: start;
 			padding-top:15%;
@@ -1212,7 +1211,7 @@ input::-moz-focus-inner {
 			line-height: 150%;
 			font-size: 0.8;
 			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-weight: 200;
 			letter-spacing: 0.075em;
 			text-align: start;
 			padding-top: 1%;
@@ -1255,7 +1254,7 @@ input::-moz-focus-inner {
 			font-size: 1rem;
 			line-height: 250%;
 			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-weight: 200;
 			letter-spacing: 0.075em;
 			text-align: start;
 		}
@@ -1276,8 +1275,8 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.3rem;
 			line-height: 250%;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 200;
 			letter-spacing: 0.075em;
 			text-align: start;
 		}
