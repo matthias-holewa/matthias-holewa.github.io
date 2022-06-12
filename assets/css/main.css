@@ -217,7 +217,7 @@ input::-moz-focus-inner {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
@@ -357,7 +357,7 @@ input::-moz-focus-inner {
 		border-radius: 4px;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -397,7 +397,7 @@ input::-moz-focus-inner {
 	label {
 		display: block;
 		background: transparent;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
@@ -509,7 +509,7 @@ input::-moz-focus-inner {
 			flex-direction: column;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans" ,"Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: center;
@@ -555,8 +555,8 @@ input::-moz-focus-inner {
 			flex-direction: row;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.9rem;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 300;
 			letter-spacing: 0.075em;
 			text-align: start;
 			padding-top: 1.5rem;
@@ -748,8 +748,8 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 1);
 			font-size: 0.9rem;
 			line-height: 150%;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 100;
 			letter-spacing: 0.05rem;
 			text-align: start;
 		}
@@ -771,7 +771,7 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.9rem;
 			line-height: 250%;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -869,8 +869,8 @@ input::-moz-focus-inner {
 			width: 100%;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.3rem;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-weight: 10;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 400;
 			letter-spacing: 0.075em;
 			text-align: start;
 		}
@@ -890,7 +890,7 @@ input::-moz-focus-inner {
 			width: 100%;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.3rem;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -922,7 +922,7 @@ input::-moz-focus-inner {
 			width: 100%;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.3rem;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -953,7 +953,7 @@ input::-moz-focus-inner {
 			width: 100%;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.3rem;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -997,7 +997,7 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
 			line-height: 250%;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -1017,7 +1017,7 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.9rem;
 			line-height: 250%;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: end;
@@ -1049,7 +1049,7 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.9rem;
 			line-height: 150%;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 500;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -1065,7 +1065,7 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.9rem;
 			line-height: 300%;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -1089,7 +1089,7 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
 			line-height: 250%;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -1186,7 +1186,7 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 1);
 			font-size: 0.8rem;
 			line-height: 150%;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -1211,7 +1211,7 @@ input::-moz-focus-inner {
 			font-size: 0.8rem;
 			line-height: 150%;
 			font-size: 0.8;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -1254,7 +1254,7 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1rem;
 			line-height: 250%;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -1297,7 +1297,7 @@ input::-moz-focus-inner {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.3rem;
 			line-height: 250%;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -1405,7 +1405,7 @@ input::-moz-focus-inner {
 			flex-direction: column;
 			color: rgba(255, 255, 255, 1);
 			font-size: 0.8rem;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans","Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -1419,7 +1419,7 @@ input::-moz-focus-inner {
 			flex-direction: column;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans","Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -1442,7 +1442,7 @@ input::-moz-focus-inner {
 			height: 8.3%;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 		}
@@ -1504,7 +1504,7 @@ input::-moz-focus-inner {
 			flex-direction: column;
 			color: rgba(255, 255, 255, 1);
 			font-size: 0.8rem;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -1518,7 +1518,7 @@ input::-moz-focus-inner {
 			flex-direction: column;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -1542,7 +1542,7 @@ input::-moz-focus-inner {
 			height: 8.3%;
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8rem;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 10;
 			letter-spacing: 0.075em;
 			text-align: start;
@@ -2034,7 +2034,7 @@ header.major .date:before, header.major .date:after {
 			}
 	
 			table th {
-				font-family: "Source Sans Pro", Helvetica, sans-serif;
+				font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 				font-size: 0.8rem;
 				font-weight: 900;
 				letter-spacing: 0.075em;
@@ -2132,7 +2132,7 @@ header.major .date:before, header.major .date:after {
 				transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 				border: solid 2px;
 				display: inline-block;
-				font-family: "Source Sans Pro", Helvetica, sans-serif;
+				font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 				font-size: 0.8rem;
 				font-weight: 900;
 				height: 3rem;
@@ -2372,7 +2372,7 @@ header.major .date:before, header.major .date:after {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			list-style: none;
@@ -2518,7 +2518,7 @@ header.major .date:before, header.major .date:after {
 		position: relative;
 		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -2605,7 +2605,7 @@ header.major .date:before, header.major .date:after {
 		right: 0.75rem;
 		border: 0;
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -2697,7 +2697,7 @@ header.major .date:before, header.major .date:after {
 				#navPanel .links li a {
 					border-bottom: 0;
 					display: block;
-					font-family: "Source Sans Pro", Helvetica, sans-serif;
+					font-family: "Work Sans", "Source Sans Pro", Helvetica, sans-serif;
 					font-size: 0.9rem;
 					font-size: 0.9rem;
 					font-weight: 900;
