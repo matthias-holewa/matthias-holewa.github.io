@@ -1189,7 +1189,7 @@ input::-moz-focus-inner {
 			font-weight: 250;
 			letter-spacing: 0.075em;
 			text-align: start;
-			padding-top:15%;
+			padding-top:45%;
 		}
 
 		@media screen and (max-width: 480px) {
